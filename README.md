@@ -5,7 +5,7 @@ Use it for your book, by adding to your book.json:
 
 ```
 {
-    "plugins": ["katex"]
+    "plugins": ["katex@git+https://github.com/gaoxiaosong/plugin-katex.git"]
 }
 ```
 
@@ -14,7 +14,7 @@ then run `gitbook install`.
 ## Usage
 
 ```
-Inline math: $$\int_{-\infty}^\infty g(x) dx$$
+Inline math: $$\int_{-\infty}^\infty g(x) dx$$, $\int_{-\infty}^\infty g(x) dx$
 
 
 Block math:
@@ -25,7 +25,7 @@ $$
 
 Or using the templating syntax:
 
-{% math %}\int_{-\infty}^\infty g(x) dx{% endblock %}
+{% block math %}\int_{-\infty}^\infty g(x) dx{% endblock %}
 ```
 
 
