@@ -6,14 +6,14 @@
     "engines": {
         "gitbook": ">=2.0.0"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-katex",
+    "homepage": "https://github.com/plugins-zander/plugin-katex",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-katex.git"
+        "url": "https://github.com/plugins-zander/plugin-katex.git"
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-katex/issues"
+        "url": "https://github.com/plugins-zander/plugin-katex/issues"
     },
     "dependencies": {
         "katex": "0.7.1"
